@@ -27,7 +27,7 @@ export async function generateMetadata() {
     },
     twitter: {
       card: "summary",
-      creator: "@yosoyvillaa"
+      creator: "@IMN13"
     }
   }
 }

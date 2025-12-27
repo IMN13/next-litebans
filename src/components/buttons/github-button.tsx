@@ -7,7 +7,7 @@ import { buttonVariants } from "@/components/ui/button";
 
 export const GithubButton = () => (
   <Link
-    href="https://github.com/yosoyvillaa/next-litebans"
+    href="https://www.mythicalpvp.com"
     target="_blank"
     rel="noreferrer"
   >
@@ -19,8 +19,8 @@ export const GithubButton = () => (
         "w-9 px-0"
       )}
     >
-      <Icons.gitHub className="h-4 w-4" />
-      <span className="sr-only">GitHub</span>
+      <Icons.globe className="h-4 w-4" />
+      <span className="sr-only">MythicalPvP</span>
     </div>
   </Link>
 )

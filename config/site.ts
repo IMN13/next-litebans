@@ -1,11 +1,10 @@
 export const siteConfig = {
-  title: "Next Litebans",
-  logo: "/logo.webp",
-  favicon: "/logo.webp",
+  title: "Mythical PvP Bans",
+  logo: "/MythicalPvPLogo.png",
+  favicon: "/MythicalPvPLogo.png",
   languages: {
     available: [
       "en",
-      "es",
     ],
     default: "en",
   },

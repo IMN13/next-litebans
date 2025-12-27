@@ -15,14 +15,13 @@ import { WebsiteLogo } from "@/components/images/website-logo"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 
 interface MobileNavProps {
-  dictionaries: Record<string, any>,
   bans: number;
   mutes: number;
   warns: number;
   kicks: number;
 }
 
-export const MobileNav = ({ dictionaries, bans, mutes, warns, kicks}: MobileNavProps) => {
+export const MobileNav = ({ bans, mutes, warns, kicks}: MobileNavProps) => {
   const [open, setOpen] = useState(false)
   const pathname = usePathname()
   const { dictionary } = useLang()

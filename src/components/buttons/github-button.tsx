@@ -19,7 +19,7 @@ export const GithubButton = () => (
         "w-9 px-0"
       )}
     >
-      <Icons.globe className="h-4 w-4" />
+      <Icons.arrowLeft className="h-4 w-4" />
       <span className="sr-only">MythicalPvP</span>
     </div>
   </Link>

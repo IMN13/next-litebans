@@ -1,6 +1,5 @@
 import { getPunishmentCount } from "@/lib/punishment/punishment";
 
-import { ThemeToggle } from "@/components/theme/theme-toggle";
 import { PlayerInput } from "@/components/input/player-lookup";
 
 import { MainNav } from "./main-nav";
@@ -18,7 +17,6 @@ export const SiteHeader = async () => {
         <div className="flex flex-1 justify-end">
           <nav className="flex items-center space-x-1">
             <PlayerInput />
-            <ThemeToggle />
             <GithubButton />
           </nav>
         </div>

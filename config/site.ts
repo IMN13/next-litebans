@@ -15,7 +15,7 @@ export const siteConfig = {
     body: "/console-body.webp",
     bust: "/console-bust.webp",
   },
-  defaultPlayerLookup: "YoSoyVilla",
+  defaultPlayerLookup: "IGN Lookup",
   // When enabled, body and bust images will show a steve skin
   bedrock: {
     enabled: false,
@@ -27,7 +27,7 @@ export const siteConfig = {
       main: {
         // Placeholders: {total}, {bans}, {mutes}, {kicks}, {warns}
         description: `
-        next-litebans punishment web interface.
+        Mythical PvP Bans.
 
         Total punishments: {total}
 

@@ -82,7 +82,7 @@ export const MobileNav = ({ bans, mutes, warns, kicks}: MobileNavProps) => {
           <nav className="flex flex-col space-y-3">
           <MobileLink 
             href="/bans"
-            className={cn("transition-colors pr-12 inline-flex w-full", pathname.startsWith("/bans") ? "hover:text-foreground text-foreground/80" : "hover:text-foreground/80 text-foreground/60")}
+            className={cn("transition-colors pr-12 inline-flex w-full text-white hover:text-white")}
             onOpenChange={setOpen}
           >
             {dictionary.words.bans.plural}<Badge variant={pathname.startsWith("/bans") ? "default" : "secondary"} className="!px-1 !py-0 ml-auto">{bans}</Badge>
@@ -90,7 +90,7 @@ export const MobileNav = ({ bans, mutes, warns, kicks}: MobileNavProps) => {
 
           <MobileLink 
             href="/mutes"
-            className={cn("transition-colors pr-12 inline-flex w-full", pathname.startsWith("/bans") ? "hover:text-foreground text-foreground/80" : "hover:text-foreground/80 text-foreground/60")}
+            className={cn("transition-colors pr-12 inline-flex w-full text-white hover:text-white")}
             onOpenChange={setOpen}
           >
             {dictionary.words.mutes.plural} <Badge variant={pathname.startsWith("/mutes") ? "default" : "secondary"} className="!px-1 !py-0 ml-auto">{mutes}</Badge>
@@ -98,7 +98,7 @@ export const MobileNav = ({ bans, mutes, warns, kicks}: MobileNavProps) => {
           
           <MobileLink 
             href="/warns"
-            className={cn("transition-colors pr-12 inline-flex w-full", pathname.startsWith("/bans") ? "hover:text-foreground text-foreground/80" : "hover:text-foreground/80 text-foreground/60")}
+            className={cn("transition-colors pr-12 inline-flex w-full text-white hover:text-white")}
             onOpenChange={setOpen}
           >
             {dictionary.words.warns.plural} <Badge variant={pathname.startsWith("/warns") ? "default" : "secondary"} className="!px-1 !py-0 ml-auto">{warns}</Badge>
@@ -106,7 +106,7 @@ export const MobileNav = ({ bans, mutes, warns, kicks}: MobileNavProps) => {
           
           <MobileLink 
             href="/kicks"
-            className={cn("transition-colors pr-12 inline-flex w-full", pathname.startsWith("/bans") ? "hover:text-foreground text-foreground/80" : "hover:text-foreground/80 text-foreground/60")}
+            className={cn("transition-colors pr-12 inline-flex w-full text-white hover:text-white")}
             onOpenChange={setOpen}
           >
             {dictionary.words.kicks.plural} <Badge variant={pathname.startsWith("/kicks") ? "default" : "secondary"} className="!px-1 !py-0 ml-auto">{kicks}</Badge>

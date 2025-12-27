@@ -59,11 +59,14 @@ export const PlayerInput = () => {
 
   return (
     <div className={cn("relative h-10", isError ? "animate-shake" : "")}>
-      <PlayerAvatar className="absolute right-1 top-1/2 transform -translate-y-1/2 z-10" name={iconPlayer != "" ? iconPlayer : siteConfig.defaultPlayerLookup}/>
+      <PlayerAvatar
+        className="absolute right-1 top-1/2 transform -translate-y-1/2 z-10"
+        name={iconPlayer !== "" ? iconPlayer : "Steve"}
+      />
       <Input 
         type="text" 
         value={playerName} 
-        placeholder={siteConfig.defaultPlayerLookup}
+        placeholder="Search IGN"
         onChange={handlePlayerNameChange} 
         onKeyDown={handleEnter} 
         disabled={isPending}

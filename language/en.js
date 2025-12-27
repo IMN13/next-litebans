@@ -35,7 +35,7 @@ const language = {
   },
   pages: {
     home: {
-      title: "Home",
+      title: "Mythical PvP Bans",
       // Placeholders: {total}, {bans}, {mutes}, {kicks}, {warns}
       subtitle: "Welcome to Mythical PvP Bans!"
     },

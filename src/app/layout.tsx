@@ -44,7 +44,9 @@ export default async function RootLayout({
     <LanguageProvider lang={lang} dictionary={dictionary} defaultLang={siteConfig.languages.default}>
       <html lang={lang}>
         <head>
+          <link rel="icon" href={siteConfig.favicon} />
           <link rel="shortcut icon" href={siteConfig.favicon} />
+          <link rel="apple-touch-icon" href={siteConfig.favicon} />
         </head>
         <body className={inter.className}>
           <ThemeProvider
